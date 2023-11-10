@@ -1,2 +1,2 @@
-var A = "This is a string";
-document.write(A);
+var A = "My name is Niall";
+window.alert(A);
