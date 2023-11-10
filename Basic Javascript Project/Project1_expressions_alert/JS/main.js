@@ -1,2 +1,2 @@
-var Name = "Niall" + " Fitzgerald";
-document.write(Name);
+var FirstName = "Niall", LastName = "Fitzgerald", Location = "Kerry";
+document.write(LastName);
