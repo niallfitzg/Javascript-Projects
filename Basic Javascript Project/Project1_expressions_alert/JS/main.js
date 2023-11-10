@@ -1,2 +1,1 @@
-var FirstName = "Niall", LastName = "Fitzgerald", Location = "Kerry";
-document.write(LastName);
+document.write(3 * 3);
