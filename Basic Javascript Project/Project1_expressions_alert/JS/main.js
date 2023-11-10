@@ -1,2 +1,2 @@
-var A = "My name is Niall";
-window.alert(A);
+var A = "My name is Niall, but people call me \”Fitzy\”!";
+document.write(A);
