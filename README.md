@@ -1,2 +1,2 @@
 # Javascript-Projects
-To store Javascriptprojects from my Pitman Training Course
+To store Javascript projects from my Pitman Training Course
