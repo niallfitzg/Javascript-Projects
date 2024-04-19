@@ -43,3 +43,18 @@ function decrement_Operator() {
     document.getElementById("decrement_Text").innerHTML = "An decrement of 10 is: "+ (--dec);
 }
 
+function random_Number() {
+    var rand = Math.random();
+    document.getElementById("random_Text").innerHTML = "This is a random number: " + rand;
+}
+
+function random_range_Number() {
+    var rand = Math.random() * 50;
+    document.getElementById("random_range_Text").innerHTML = "This is a random number between 1 and 50: " + rand;
+}
+
+
+
+
+
+
