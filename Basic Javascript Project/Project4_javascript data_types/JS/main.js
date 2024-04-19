@@ -7,7 +7,9 @@ function my_Dictionary() {
         Fuel: "Petrol",
         Age: 10,
     };
-    
+    //delete the Brand value from the KVP
+    delete Car.Brand;
+    //Output to a HTML element
     document.getElementById("Dictionary").innerHTML = "The brand of the vehicle is: " + Car.Brand;
 }
 
