@@ -33,3 +33,13 @@ function negation_Operator() {
     document.getElementById("negation_Text").innerHTML = "The negation of 10 is: " + (-x);
 }
 
+function increment_Operator() {
+    var inc = 10;
+    document.getElementById("increment_Text").innerHTML = "An increment of 10 is: "+ (++inc);
+}
+
+function decrement_Operator() {
+    var dec = 10;
+    document.getElementById("decrement_Text").innerHTML = "An decrement of 10 is: "+ (--dec);
+}
+
