@@ -10,3 +10,13 @@ function displayInfinity() {
 function displayNegInfinity() {
     document.getElementById("negInfinityDisplay").innerHTML = "Negative Infinity: " + (-3E310);
 }
+
+//Return Boolean True
+function displayBooleanTrue() {
+    document.getElementById("booleanTrue").innerHTML = document.write(10 > 2);
+}
+
+//Return Boolean fasle
+function displayBooleanFalse() {
+    document.getElementById("booleanFalse").innerHTML = document.write(10 < 2);
+}
