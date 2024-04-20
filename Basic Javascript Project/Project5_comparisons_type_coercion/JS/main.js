@@ -65,4 +65,27 @@ function tripleEqualsFalse3() {
     document.getElementById("tripleEqualsFalse3").innerHTML = document.write(X === Y);
 }
 
+//Output AND Operator True Value
+function andTrue() {
+    document.getElementById("andTrue").innerHTML = document.write(5 > 2 && 10 > 4);
+}
+
+//Output AND Operator False Value
+function andFalse() {
+    document.getElementById("andFalse").innerHTML = document.write(5 > 10 && 10 > 4);
+}
+
+//Output OR Operator True Value
+function orTrue() {
+    document.getElementById("orTrue").innerHTML = document.write(5 > 2 || 10 > 4);
+}
+
+//Output OR Operator False Value
+function orFalse() {
+    document.getElementById("orFalse").innerHTML = document.write(5 > 2 || 10 > 4);
+}
+
+
+
+
 
