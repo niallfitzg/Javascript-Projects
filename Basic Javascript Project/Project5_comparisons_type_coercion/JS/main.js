@@ -26,3 +26,15 @@ function displayConsoleLog() {
     console.log(10 < 2);
     document.getElementById("consoleLog").innerHTML = "Check the console to see the false value";
 }
+
+//Output Double Equals True Value
+function doubleEqualsTrue() {
+    document.getElementById("doubleEqualsTrue").innerHTML = document.write(10 == 10);
+}
+
+//Output Double Equals False Value
+function doubleEqualsFalse() {
+    document.getElementById("doubleEqualsFalse").innerHTML = document.write(3 == 11);
+}
+
+
