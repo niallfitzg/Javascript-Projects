@@ -16,7 +16,7 @@ function displayBooleanTrue() {
     document.getElementById("booleanTrue").innerHTML = document.write(10 > 2);
 }
 
-//Output Console Log
+//Output Console  Log
 function displayConsoleLog() {
     console.log(2 + 2);
     document.getElementById("consoleLog").innerHTML = "Check the console to see the sum of 2 + 2";
