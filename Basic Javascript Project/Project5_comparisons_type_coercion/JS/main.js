@@ -37,4 +37,32 @@ function doubleEqualsFalse() {
     document.getElementById("doubleEqualsFalse").innerHTML = document.write(3 == 11);
 }
 
+//Output Triple Equals True Value - matching data type and value
+function tripleEqualsTrue() {
+    X = 10;
+    Y = 10;
+    document.getElementById("tripleEqualsTrue").innerHTML = document.write(X === Y);
+}
+
+//Output Triple Equals False Value - different data type and value
+function tripleEqualsFalse1() {
+    X = "Niall";
+    Y = 10;
+    document.getElementById("tripleEqualsFalse1").innerHTML = document.write(X === Y);
+}
+
+//Output Triple Equals False Value - different data type but the same value for both.
+function tripleEqualsFalse2() {
+    X = "10";
+    Y = 10;
+    document.getElementById("tripleEqualsFalse2").innerHTML = document.write(X === Y);
+}
+
+//Output Triple Equals False Values - same data type but a different value for both.
+function tripleEqualsFalse3() {
+    X = "Niall";
+    Y = "John";
+    document.getElementById("tripleEqualsFalse3").innerHTML = document.write(X === Y);
+}
+
 
