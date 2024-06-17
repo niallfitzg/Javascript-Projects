@@ -26,3 +26,14 @@ function Add_numbers_3() {
     // Append to the HTML element
     document.getElementById("scope3").innerHTML += " " + result;
 }
+
+// Function to check the current time and display a message
+function checkTime() {
+    var currentHour = new Date().getHours();
+    var message;
+
+    if (currentHour < 12) {
+        document.getElementById("timeResult").innerHTML = "Good Morning";
+    } 
+
+}
