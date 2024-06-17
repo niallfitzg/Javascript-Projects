@@ -33,12 +33,15 @@ function checkTime() {
     var message;
 
     if (currentHour < 12) {
-        document.getElementById("timeResult").innerHTML = "Good Morning";
-    } 
+        message = "Good morning!";
+    } else {
+        message = currentHour < 18 ? "Good afternoon!" : "Good evening!";
+    }
 
+    // Output the message to the HTML element
+    document.getElementById("timeResult").innerHTML += " " + message;
 }
 
-// IF Statment assignment
 // Function to check if it's within work hours (9 AM to 5 PM)
 function checkWorkHours() {
     var currentHour = new Date().getHours();
@@ -52,4 +55,19 @@ function checkWorkHours() {
 
     // Output the message to the HTML element
     document.getElementById("workHoursResult").innerHTML += " " + message;
+}
+
+// Function to check if the number is even or odd
+function checkEvenOdd() {
+    var number = document.getElementById("numberInput").value;
+    var even_odd_message;
+
+    if (number % 2 === 0) {
+        even_odd_message = number + " is even.";
+    } else {
+        even_odd_message = number + " is odd.";
+    }
+
+    // Output the message to the HTML element
+    document.getElementById("evenOddResult").innerHTML = even_odd_message;
 }

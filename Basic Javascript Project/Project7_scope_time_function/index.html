@@ -11,16 +11,20 @@
 
 <body>
     <p onclick="Add_numbers_1()">Click me for local variable use!</p>
-    <p id="scope">The result of the local variable function is: </p>
+    <p id="scope">The result of the local variable operation is: </p>
     <p onclick="Add_numbers_2()">Click me for global variable use!</p>
-    <p id="scope2">The result of the global variable function is: </p>
+    <p id="scope2">The result of the global variable operation is: </p>
     <p onclick="Add_numbers_3()">Click me for another global variable use!</p>
-    <p id="scope3">The result of another global variable function is: </p>
-    <p onclick="checkTime()">Click me to check the current time!</p>
-    <p id="timeResult">If it is before 12pm then a message will appear: </p>
+    <p id="scope3">The result of another global variable operation is: </p>
+    <p id="timeCheck" onclick="checkTime()">Click me to check the current time!</p>
+    <p id="timeResult">The result of the time check will appear here: </p>
     <p id="workHoursCheck" onclick="checkWorkHours()">Click me to check work hours!</p>
     <p id="workHoursResult">The result of the work hours check will appear here: </p>
-   
+
+    <p>Enter a number to check if it is even or odd:</p>
+    <input type="text" id="numberInput">
+    <button onclick="checkEvenOdd()">Check Even or Odd</button>
+    <p id="evenOddResult">The result of the even/odd check will appear here: </p>
 </body>
 
 </html>
