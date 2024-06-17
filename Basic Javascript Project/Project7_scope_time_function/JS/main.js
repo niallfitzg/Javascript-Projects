@@ -37,3 +37,19 @@ function checkTime() {
     } 
 
 }
+
+// IF Statment assignment
+// Function to check if it's within work hours (9 AM to 5 PM)
+function checkWorkHours() {
+    var currentHour = new Date().getHours();
+    var message;
+
+    if (currentHour >= 9 && currentHour <= 17) {
+        message = "It's within work hours.";
+    } else {
+        message = "It's outside work hours.";
+    }
+
+    // Output the message to the HTML element
+    document.getElementById("workHoursResult").innerHTML += " " + message;
+}
