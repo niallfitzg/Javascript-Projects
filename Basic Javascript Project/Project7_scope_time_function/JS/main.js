@@ -1,3 +1,5 @@
+// Project7_Scope_Time_Function_Assignment
+
 var x = 10; // For use as a global variable
 
 function Add_numbers_1() {
