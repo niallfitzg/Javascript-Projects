@@ -71,3 +71,19 @@ function checkEvenOdd() {
     // Output the message to the HTML element
     document.getElementById("evenOddResult").innerHTML = even_odd_message;
 }
+
+// Function to display a message based on the time of day
+function Time_function() {
+    var Time = new Date().getHours();
+    var Reply;
+
+    if (Time > 0 && Time < 12) {
+        Reply = "It is morning time.";
+    } else if (Time >= 12 && Time < 18) {
+        Reply = "It is afternoon.";
+    } else {
+        Reply = "It is evening time.";
+    }
+
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
