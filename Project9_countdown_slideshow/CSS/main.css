@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-/* Slideshow container */
-.slideshow-container {
+/* Slideshow & Countdown containers */
+.slideshow-container,
+.countdown-container{
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -95,3 +96,4 @@
         opacity: 1;
     }
 }
+
