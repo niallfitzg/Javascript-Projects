@@ -1,4 +1,4 @@
-/* Concatanate Method
+// Concatanate Method
 function full_Sentence() {
     var part_1 = "I have ";
     var part_2 = "made this ";
@@ -33,10 +33,25 @@ function search_Method() {
 function string_Method() {
     var X = 190;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
-} */
+}
 
 // Precision Method
 function precision_Method() {
     var x = 12938.3012987376112;
     document.getElementById("Precision").innerHTML = x.toPrecision(10);
 }
+
+// toFixed Method
+function toFixed_Method() {
+    var n = 12938.3012987376112;
+    var Num = n.toFixed(5);    
+    document.getElementById("toFixed").innerHTML = Num;
+}
+
+// valueOf Method
+function valueOf_Method() {
+    var n = 123;
+    var num = n.valueOf();
+    document.getElementById("valueOf").innerHTML = num + " (Type: " + typeof num + ")";
+}
+
