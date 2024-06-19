@@ -1,4 +1,4 @@
-//Concatanate Method
+/* Concatanate Method
 function full_Sentence() {
     var part_1 = "I have ";
     var part_2 = "made this ";
@@ -27,4 +27,11 @@ function search_Method() {
     var text = "Click here to locate the position of the word 'position'.";
     var index = text.search('position');
     document.getElementById("Search").innerHTML = index;
+}*/
+
+// Numbers to String
+function string_Method() {
+    var X = 190;
+    document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
+
