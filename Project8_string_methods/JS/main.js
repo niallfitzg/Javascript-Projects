@@ -1,4 +1,4 @@
-// Concatanate Method
+/* Concatanate Method
 function full_Sentence() {
     var part_1 = "I have ";
     var part_2 = "made this ";
@@ -33,7 +33,7 @@ function search_Method() {
 function string_Method() {
     var X = 190;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
-}
+} */
 
 // Precision Method
 function precision_Method() {
