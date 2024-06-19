@@ -14,3 +14,17 @@ function slice_Method() {
     var Section = Sentence.slice(27, 33);
     document.getElementById("Slice").innerHTML = Section;
 }
+
+//UpperCase Method
+function toUpperCase_Method() {
+    var mixedCase = "toUpperCase_Method";
+    var upperCase = mixedCase.toUpperCase();
+    document.getElementById("toUpperCase").innerHTML = upperCase;
+}
+
+// Search Method
+function search_Method() {
+    var text = "Click here to locate the position of the word 'position'.";
+    var index = text.search('position');
+    document.getElementById("Search").innerHTML = index;
+}
