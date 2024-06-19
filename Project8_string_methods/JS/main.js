@@ -1,4 +1,4 @@
-/* Concatanate Method
+// Concatanate Method
 function full_Sentence() {
     var part_1 = "I have ";
     var part_2 = "made this ";
@@ -8,14 +8,14 @@ function full_Sentence() {
     document.getElementById("Concatenate").innerHTML = whole_sentence;
 }
 
-//SLice Method
+// SLice Method
 function slice_Method() {
     var Sentence = "All work and no play makes Johnny a dull boy";
     var Section = Sentence.slice(27, 33);
     document.getElementById("Slice").innerHTML = Section;
 }
 
-//UpperCase Method
+// UpperCase Method
 function toUpperCase_Method() {
     var mixedCase = "toUpperCase_Method";
     var upperCase = mixedCase.toUpperCase();
@@ -27,11 +27,16 @@ function search_Method() {
     var text = "Click here to locate the position of the word 'position'.";
     var index = text.search('position');
     document.getElementById("Search").innerHTML = index;
-}*/
+}
 
-// Numbers to String
+// Numbers to String Method
 function string_Method() {
     var X = 190;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
 
+// Precision Method
+function precision_Method() {
+    var x = 12938.3012987376112;
+    document.getElementById("Precision").innerHTML = x.toPrecision(10);
+}
