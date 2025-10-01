@@ -1,0 +1,44 @@
+/* this box holds the game board and the canvas */
+.center-container {
+    /* how wide the game area is */
+    width: 608px;
+    /* put it in the middle of the screen */
+    margin: 0 auto;
+    /* push it down a bit from the top */
+    margin-top: 50px;
+}
+
+table {
+    /* squish borders together so they don’t double up */
+    border-collapse: collapse;
+    /* hide the outside border of the table */
+    border-style: hidden;
+}
+
+td {
+    /* make the mouse turn into a hand when hovering */
+    cursor: pointer;
+    /* red border for each square */
+    border: 4px solid rgba(252, 3, 3, 0.8);
+    /* no extra space inside */
+    padding: 0px;
+    /* size of each square */
+    width: 200px;
+    height: 200px;
+    /* makes colours look stronger */
+    filter: contrast(3);
+}
+
+canvas {
+    /* stick the canvas at the top left corner */
+    position: absolute;
+    /* make the canvas sit on top of the game board */
+    z - index: 10;
+    /* don’t let the mouse click on the canvas */
+    pointer - events: none;
+}
+
+h1 {
+    /* put the title in the middle */
+    text-align: center;
+}
