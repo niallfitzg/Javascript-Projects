@@ -1,0 +1,123 @@
+/* body */
+body {
+    background-color: #f3efe4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main menu */
+#menuBG {
+    width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+
+    /* Italian menu box border & drop shadow */
+    border: 3px solid #b33a3a;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+
+    /* Gradient bacground */
+    background: linear-gradient(to bottom,
+            #ffffff 0%,
+            #faf7f0 50%,
+            #f5f0e7 100%);
+}
+
+/* Headings */
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    color: #d56d25;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Italian-colours divider under heading */
+h1::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    margin: 10px auto 0;
+    background: linear-gradient(to right, #b33a3a, #2e8b57);
+    border-radius: 2px;
+}
+
+h3 {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    color: #d56d25;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #b33a3a;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+/* 3 columns */
+.left,
+.center,
+.right {
+    width: 30%;
+    float: left;
+    padding: 5px 10px;
+}
+
+/* Button stylings */
+#btnOrder {
+    display: block;
+    margin: 20px auto 0px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: #fff8dc;
+    background: linear-gradient(#8b0000, #b33a3a);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btnOrder:hover {
+    background: linear-gradient(#a00000, #cc3f3f);
+}
+
+/* Reciept */
+#cart {
+    clear: both;
+    padding-top: 40px;
+}
+
+#showText {
+    padding: 15px;
+    background: #fff8e1;
+    border: 1px solid #b33a3a;
+    border-radius: 8px;
+    min-height: 100px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+
+#totalPrice {
+    font-size: 28px;
+    color: #b33a3a;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+/* heaader image*/
+.header-img {
+    width: 700px;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* display receipt items centred*/
+#showText {
+    text-align: center;
+}
+
