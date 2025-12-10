@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Click + Fade Effect Example</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <p id="myParagraph">Click me — I will fade out!</p>
+
+    <script>
+        // When the <p> element is clicked
+        $("#myParagraph").click(function () {
+            // Fade out the paragraph over 1500 ms
+            $(this).fadeOut(1500, function () {
+                console.log("Paragraph has faded out.");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
